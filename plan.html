@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="media/a-different-kind-of-mkt.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="¿Quieres aumentar las ventas y exposición de tu negocio? - Conoce más sobre Different Kind Of Mkt. Escoge tu plan y veras el cambio">
+    <meta name="keywords"
+        content="aumento-ventas, marketing, publicidad-online, diseño-web, mercadeo, relaciones-publicas, planes-marketing-digital, SEO, SEM, adwords, investigacion-mercados,  exposicion-marca, marketing-creativo, mercadeo-creativo">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="CSS/estilos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>DKM - Nosotros</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu-mobile">
+            <nav class="navbar navbar-light pt-4 ps-2 pe-2">
+                <div class="container-fluid">
+                    <a class="navbar-brand " href="index.html"><img src="media/a-different-kind-of-mkt.png"
+                            class="menuimgmobile" alt="DKM"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="nosotros.html">NOSOTROS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="servicios.html">SERVICIOS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="pricing.html">PRICING</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="soporte.html">SOPORTE</a>
+                                </li>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="menu">
+            <ul class="nav justify-content-evenly pt-3 animate__animated animate__backInDown">
+                <li class="nav-item">
+                    <a class="nav-link link-dark p-0" href="nosotros.html">NOSOTROS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-dark p-0" href="servicios.html">SERVICIOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-dark pt-2 p-0" href="index.html"><img
+                            src="media/a-different-kind-of-mkt.png" class="img-fluid" alt="DKM"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-dark p-0" href="pricing.html">PRICING</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-dark p-0" href="soporte.html">SOPORTE</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <br>
+    
+    <main>
+        <h1 class="titulo">CONOCE TU PLAN IDEAL CON DKM</h1>
+
+        <fieldset id="pregunta">
+
+        </fieldset>
+        <button id="siguiente" type="button" onclick="siguiente()">Siguiente</button>
+
+    </main>
+
+    <div id="resultado">
+        <p></p>
+    </div>
+
+    <br>
+    <footer class="d-flex justify-content-evenly">
+        <div class="d-inline-table justify-content-evenly">
+            <section class="d-inline-block p-4 text-center">
+                <h1 class="footer_titulos_menu">DKM</h1>
+                <article class="footer_cont_menu"><a href="soporte.html" class="nav-link link-dark">Registro</a>
+                </article>
+                <article class="footer_cont_menu"><a href="pricing.html" class="nav-link link-dark">Pricing</a>
+                </article>
+            </section>
+            <section class="d-inline-block p-4 text-center">
+                <h1 class="footer_titulos_menu">SOPORTE</h1>
+                <article class="footer_cont_menu"><a href="soporte.html" class="nav-link link-dark">Contáctenos</a>
+                </article>
+                <article class="footer_cont_menu"><a href="soporte.html" class="nav-link link-dark">Ayuda FAQ</a>
+                </article>
+            </section>
+            <section class="d-inline-block p-4 text-center">
+                <h1 class="footer_titulos_menu">COMPAÑIA</h1>
+                <article class="footer_cont_menu"><a href="nosotros.html" class="nav-link link-dark">Acerca de
+                        Nosotros</a></article>
+                <article class="footer_cont_menu"><a href="carrito.html" class="nav-link link-dark">Boletines</a>
+                </article>
+            </section>
+        </div>
+        <div class="fluid-container pt-4 pe-0">
+            <p class="FORMULARIO">UNETE A NOSOTROS</p>
+            <form>
+                <div class="p-0">
+                    <label for="femail" class="FORMULARIO">Email</label>
+                    <input class="FORMULARIO_CAMPO" type="email" id="femail" required placeholder="Correo Electrónico">
+                    <button type="submit" class="BOTON">SUSCRIBIRME</button>
+                </div>
+            </form>
+        </div>
+    </footer>
+
+
+    <script src="main.js"></script>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
