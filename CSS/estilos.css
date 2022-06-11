@@ -198,3 +198,36 @@ footer {
     display: none;
   }
 }
+
+#resultado {
+  font-size: 100px;
+  justify-content: center;
+  font-family: FUENTE2;
+  text-align: center;
+}
+
+.pregunta {
+  font-family: FUENTE1;
+  font-size: 40px;
+  color: black;
+  margin: 0; }
+
+#siguiente {
+  font-size: FUENTE1;
+  font-size: 14px;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  padding: 5px;
+  background-color: transparent;
+  font-weight: bold; }
+
+  .subtituloplan {
+    font-family: FUENTE2;
+    color: black;
+    font-size: 50px;
+    padding-left: 30%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: bold; }
+    
